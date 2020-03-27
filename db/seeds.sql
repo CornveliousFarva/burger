@@ -6,3 +6,7 @@ INSERT INTO burgers (name) VALUES ('Plain Hamburger');
 INSERT INTO burgers (name) VALUES ('Double-Double');
 INSERT INTO burgers (name) VALUES ('Quarter Pound Burger');
 INSERT INTO burgers (name) VALUES ('Fish Sandwich');
+INSERT INTO burgers (name) VALUES ('New Bacon-Ings');
+INSERT INTO burgers (name) VALUES ('Rest In Peas Burger');
+INSERT INTO burgers (name) VALUES ('Salvador Cauliflower Burger');
+INSERT INTO burgers (name) VALUES ('Poutine on the Ritz Burger');
