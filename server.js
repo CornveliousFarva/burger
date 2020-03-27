@@ -4,6 +4,19 @@ var PORT = process.env.PORT || 8080;
 
 var app = express();
 
+var mysql = require("mysql");
+var connection = mysql.createConnection(process.env.JAWSDB_URL);
+
+connection.connect();
+
+connection.query('Eat a burger or select a new one to eat', function(err, rows, fields) {
+  if (err) throw err;
+
+  console.log('Burgers eaten ', rows[0]);
+});
+
+connection.end();
+
 // Serve static content for the app from the "public" directory in the application directory.
 app.use(express.static("views/assets"));
 
