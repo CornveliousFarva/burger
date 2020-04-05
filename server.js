@@ -9,7 +9,7 @@ var connection = mysql.createConnection(process.env.JAWSDB_URL);
 
 connection.connect();
 
-connection.query('Eat a burger or select a new one to eat', function(err, rows, fields) {
+connection.query("Eat a burger or select a new one to eat", function(err, rows, fields) {
   if (err) throw err;
 
   console.log('Burgers eaten ', rows[0]);
